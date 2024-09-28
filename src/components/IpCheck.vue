@@ -78,7 +78,7 @@ import { validateIp } from "@/utils";
           ip.location = data.location;
           ip.countryCode = data.countryCode;
 
-          ip.intervalId = setInterval(() => {
+          ip.intervalId = window.setInterval(() => {
             const currentTime = new Date().toLocaleTimeString("en-US", {
               timeZone: data.timezone,
               hour12: false, // 24 hour format

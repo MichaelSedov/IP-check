@@ -12,7 +12,7 @@
             v-model="ip.address"
             @blur="fetchLocation(ip)"
             :disabled="ip.loading"
-            class="input"
+            class="ip-check__input input"
             type="text"
             placeholder="Enter IP address"
           />

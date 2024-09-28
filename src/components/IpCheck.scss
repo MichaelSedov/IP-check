@@ -1,13 +1,12 @@
 .ip-check {
-  max-width: 960px;
+  max-width: 800px;
   margin: 120px auto;
   border: 1px solid #ccc;
   border-radius: 5px;
 
   &__title {
     text-align: left;
-    padding: 0 20px;
-    border-bottom: 1px solid #ccc;
+    margin: 10px 20px;
   }
 
   &__content {
@@ -15,11 +14,16 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+    padding: 20px;
   }
 
   &__description {
     margin-bottom: 20px;
+  }
+
+  &__input {
+    width: 280px;
   }
 }
 
@@ -41,7 +45,10 @@
 }
 
 .ip-list {
+  width: 100%;
   margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
 
   &__item {
     display: flex;
